@@ -11,6 +11,11 @@ import model.ExpenseTrackerModel;
 import model.Transaction;
 import model.Filter.TransactionFilter;
 
+/**
+ * Controller for the ExpenseTrackerApp  
+ *  - defines the model and view
+ *  - regsiters the view as observer with the model
+ */
 public class ExpenseTrackerController {
   
   private ExpenseTrackerModel model;

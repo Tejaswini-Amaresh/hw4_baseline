@@ -4,6 +4,16 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Create a model for the ExpenseTrackerApp
+ *  -> transanctions - stores the entire list of transactions
+ *  -> matchedFilterIndices - stores the indices of the transactions to be filtered
+ *  -> observers - stores the list of the listeners for the model 
+ * 
+ * @apiNote - Methods register() and stateChanged() are implemented from the previous version
+ *            of the code. Till the previous version, the controller was updating the view. However, from this version
+ *            model updates the view whenever there is update in state changed.
+ */
 public class ExpenseTrackerModel {
 
   //encapsulation - data integrity
